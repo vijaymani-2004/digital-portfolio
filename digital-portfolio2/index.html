@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>portfolio</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+            }
+
+            header{
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 2rem;
+                position: relative;
+            }
+
+            .header-content h1 {
+                font-size: 2.5rem;
+            }
+
+
+            .profile-picture{
+                width: 100px;
+                height: 100px;
+                border-radius: 75%;
+                object-fit: cover;
+                position: absolute;
+                top: 75px;
+                left: 75px;
+            }
+
+            nav {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+            }
+            #un{
+                list-style: none;
+            }
+            a{
+                color: gray;
+                text-decoration: none;
+            }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            nav ul li {
+                display: inline;
+                margin: 0 20px;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .section-content {
+                background-color: #fff;
+                padding: 2rem;
+                margin: 1rem;
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+            <img src="/digital-portfolio2/saranya.jpeg" class="profile-picture">
+            <h1> Saranya R</h1>
+            </div>
+        </header>
+
+        <nav>
+            <ul id="un">
+               <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+            <div class="selection-content">
+                <h2>About Me</h2>
+                <p>I am  saranya and I am a computer science student</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="section-content">
+                <h2>Computer science</h2>
+                <p>Annamalai university</p>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <div class="section-content">
+                <h2>Skills</h2>
+                <ul >
+                    <li>programing</li>
+                    <li>web designing</li>
+                    <li>deep learling</li>
+                </ul>
+            </div>
+        </section>
+    </body>
+</html>
